@@ -1,7 +1,7 @@
 # ICSD website Scrapper
-Author: Achilleas Papakonstantinou
-Date: 26 Dec. 2019
-ICSD website Scrapper v.0000000001
+Author: Achilleas Papakonstantinou \
+Date: 26 Dec. 2019 \
+ICSD website Scrapper v.0000000001 \
 
 ## About
 Scrapping professors and courses from http://www.icsd.aegean.gr/icsd/
