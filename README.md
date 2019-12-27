@@ -60,4 +60,4 @@ grandingMethod\
 languageOfInstruction\
 modeOfDelivery\
 
-⚠️Ιmportant: getAdvancedCourses doesn't always work properly due to lack of consistency of ICSD site. So it's better to use the getBasicCourses to retrieve basic course informations and then if you want more, use getAdvancedCourseDetails(url) to see the differences.
+⚠️Ιmportant: getAdvancedCourses doesn't always work properly due to lack of consistency of ICSD site. So it's better to use the getBasicCourses to retrieve basic course information.
