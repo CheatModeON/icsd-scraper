@@ -15,7 +15,7 @@ It already includes examples of usages at the end of the code
 
 # Functions
 **getProfessors()** \
-Returns all professors as an array of objects with the below details
+Returns all professors as an array of objects with the below details:
 
 * name
 * academicRank
