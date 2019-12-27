@@ -1,4 +1,6 @@
 # ICSD website Scrapper
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c1f9032ce0a94d5faf42007adf8dd087)](https://www.codacy.com/manual/CheatModeON/icsd-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CheatModeON/icsd-scraper&amp;utm_campaign=Badge_Grade)
+
 Author: Achilleas Papakonstantinou \
 Date: 26 Dec. 2019 \
 ICSD website Scrapper v.0000000001
