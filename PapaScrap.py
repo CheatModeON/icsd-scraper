@@ -195,9 +195,9 @@ def getAdvancedCourses():
 
 
         advanced_courses = []; #object to return
-        for i in range(0, len(courses_href)):
+        for href in courses_href:
                 
-                resp = requests.get('http://www.icsd.aegean.gr/icsd/'+courses_href[i])
+                resp = requests.get('http://www.icsd.aegean.gr/icsd/'+href)
                 if resp.ok:
                         html_data = resp.text
                 else:
