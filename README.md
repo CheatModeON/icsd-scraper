@@ -4,10 +4,10 @@ Date: 26 Dec. 2019 \
 ICSD website Scrapper v.0000000001
 
 ## About
-Scrapping professors and courses from <http://www.icsd.aegean.gr/icsd/>
+Scrapping professors and courses from [http://www.icsd.aegean.gr/icsd/](ICSD website)
 
 Original idea by Yannis Alexiou. 
-Check his implementation in NodeJS here: <https://www.npmjs.com/package/icsd-scraper>
+Check his implementation in NodeJS [https://www.npmjs.com/package/icsd-scraper](here)
 
 ## Usage
 Run script "python PapaScrap.py"
