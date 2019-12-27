@@ -6,7 +6,6 @@
 # Original idea by Yannis Alexiou. Check his implementation in NodeJS here: https://www.npmjs.com/package/icsd-scraper
 
 import requests
-from html.parser import HTMLParser
 from bs4 import BeautifulSoup
 import time
 
@@ -33,7 +32,8 @@ class BasicCourse(object):
                 self.link = link
 
 class AdvancedCourse(object):
-        def __init__(self, contentOutline, learningOutcomes, prerequisites, basicTextbooks, additionalReferences, teachingMethod, grandingMethod, languageOfInstruction, modeOfDelivery):
+        def __init__(self, contentOutline, learningOutcomes, prerequisites, basicTextbooks, additionalReferences, 
+		     teachingMethod, grandingMethod, languageOfInstruction, modeOfDelivery):
                 self.contentOutline = contentOutline
                 self.learningOutcomes = learningOutcomes
                 self.prerequisites = prerequisites
@@ -67,11 +67,9 @@ def getProfessors():
 	for a in all_kathigitis:
 		href_kath.append(a['href'])
 	all_epikouros = soup.select('.epikouros a')
-	count = 0
 	for a in all_epikouros:
 		href_epik.append(a['href'])
 	all_mepikouros = soup.select('.mepikouros a')
-	count = 0
 	for a in all_mepikouros:
 		href_mepik.append(a['href'])
 
@@ -109,7 +107,7 @@ def getProfessors():
                 children = li.findChildren("a" , recursive=True)
                 website = (children[3].attrs['href'])
 		#citations
-		citations = (children[4].attrs['href'])
+		#citations = (children[4].attrs['href'])
 		#image
                 img_data = soup.find("div", {"class": "m-card-profile__pic-leo"})
                 image_link = img_data.find('img')['src']
@@ -212,26 +210,26 @@ def getAdvancedCourses():
 
                 all_data = table.findAll("tr")
                 
-                title = all_data[0].findChildren()[2].text
+                #title = all_data[0].findChildren()[2].text
                 
-                code = all_data[1].findChildren()[2].text
+                #code = all_data[1].findChildren()[2].text
                 
-                semester = all_data[2].findChildren()[2].text
+                #semester = all_data[2].findChildren()[2].text
                 
-                ects = all_data[3].findChildren()[2].text
+                #ects = all_data[3].findChildren()[2].text
                 
-                theoryHours = all_data[4].findChildren()[2].text
+                #theoryHours = all_data[4].findChildren()[2].text
                 
-                labHours = all_data[5].findChildren()[2].text
+                #labHours = all_data[5].findChildren()[2].text
                 
-                professor = all_data[6].findChildren()[2].text
+                #professor = all_data[6].findChildren()[2].text
                 
-                link = 'http://www.icsd.aegean.gr/icsd/'+courses_href[i]
+                #link = 'http://www.icsd.aegean.gr/icsd/'+courses_href[i]
                 
                 #print("" +title+ "\t\t | " +code+ "\t | "+semester+"\t | "+ects+"\t | "+theoryHours+"\t | "+labHours+"\t | "+professor+"\t | "+link)
 
                 
-                courseWebsite = 'http://www.icsd.aegean.gr/icsd/'+courses_href[i]
+                #courseWebsite = 'http://www.icsd.aegean.gr/icsd/'+courses_href[i]
 
                 divs = soup.find_all( "div", {"class":"m-portlet__body"} )
                 
@@ -277,7 +275,8 @@ def getAdvancedCourses():
                 for child in children:
                         modeOfDelivery = modeOfDelivery + (child.text)
 
-                advanced_courses.append(AdvancedCourse(contentOutline, learningOutcomes, prerequisites, basicTextbooks, additionalReferences, teachingMethod, grandingMethod, languageOfInstruction, modeOfDelivery))
+                advanced_courses.append(AdvancedCourse(contentOutline, learningOutcomes, prerequisites, basicTextbooks, additionalReferences, 
+						       teachingMethod, grandingMethod, languageOfInstruction, modeOfDelivery))
 
                 #print('________________________________________________________________________\n')
 
