@@ -14,7 +14,7 @@ Run script "python PapaScrap.py"
 It already includes examples of usages at the end of the code
 
 # Functions
-* getProfessors()\
+**getProfessors()** \
 Returns all professors as an array of objects with the below details
 
 name\
@@ -26,7 +26,7 @@ email\
 website\
 image\
 
-* getCourses()\
+**getCourses()** \
 Returns all courses as an array of objects with the below details:
 
 title\
@@ -38,7 +38,7 @@ labHours\
 professor\
 link\
 
-* getAdvancedCourses()\
+**getAdvancedCourses()** \
 Returns all courses as an array of objects with the below details:
 
 title\
