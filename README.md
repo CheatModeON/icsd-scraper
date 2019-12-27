@@ -3,17 +3,17 @@ Author: Achilleas Papakonstantinou
 Date: 26 Dec. 2019
 ICSD website Scrapper v.0000000001
 
-# About
+## About
 Scrapping professors and courses from http://www.icsd.aegean.gr/icsd/
 
 Original idea by Yannis Alexiou. 
 Check his implementation in NodeJS here: https://www.npmjs.com/package/icsd-scraper
 
-# Usage
+## Usage
 Run script "python PapaScrap.py"
 It already includes examples of usages at the end of the code
 
-# Functions
+## Functions
 **getProfessors()** \
 Returns all professors as an array of objects with the below details:
 
