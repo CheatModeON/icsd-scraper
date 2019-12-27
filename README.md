@@ -14,53 +14,47 @@ Run script "python PapaScrap.py"
 It already includes examples of usages at the end of the code
 
 # Functions
-* getProfessors()
-
-Returns all professors as an array of objects with the below details:
-
-name
-academicRank
-link
-office
-tel
-email
-website
-image
-
-* getCourses()
-
+* getProfessors()\
+Returns all professors as an array of objects with the below details
+name\
+academicRank\
+link\
+office\
+tel\
+email\
+website\
+image\
+\
+* getCourses()\
 Returns all courses as an array of objects with the below details:
-
-title
-code
-semester
-ects
-theoryHours
-labHours
-professor
-link
-
-* getAdvancedCourses()
-
+title\
+code\
+semester\
+ects\
+theoryHours\
+labHours\
+professor\
+link\
+\
+* getAdvancedCourses()\
 Returns all courses as an array of objects with the below details:
-
-title
-code
-semester
-ects
-theoryHours
-labHours
-professor
-link
-courseWebsite
-contentOutline
-learningOutcomes
-prerequisites
-basicTextbooks
-additionalReferences
-teachingMethod
-grandingMethod
-languageOfInstruction
-modeOfDelivery
-
+title\
+code\
+semester\
+ects\
+theoryHours\
+labHours\
+professor\
+link\
+courseWebsite\
+contentOutline\
+learningOutcomes\
+prerequisites\
+basicTextbooks\
+additionalReferences\
+teachingMethod\
+grandingMethod\
+languageOfInstruction\
+modeOfDelivery\
+\
 ⚠️Ιmportant: getAdvancedCourses doesn't always work properly due to lack of consistency of ICSD site. So it's better to use the getBasicCourses to retrieve basic course informations and then if you want more, use getAdvancedCourseDetails(url) to see the differences.
