@@ -286,7 +286,7 @@ def getAdvancedCourses():
 # TESTIN'
 
 start_time = time.time()
-    
+
 # test professors
 print('\n______________ Professors Test ______________')
 professors = getProfessors()
