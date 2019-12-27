@@ -168,7 +168,7 @@ def getBasicCourses():
                 
                 professor = all_data[6].findChildren()[2].text
                             
-                link = 'http://www.icsd.aegean.gr/icsd/'+courses_href[i]
+                link = 'http://www.icsd.aegean.gr/icsd/'+href
 
                 basic_courses.append(BasicCourse(title, code, semester, ects, theoryHours, labHours, professor, link))
                 #print("" +title+ "\t\t | " +code+ "\t | "+semester+"\t | "+ects+"\t | "+theoryHours+"\t | "+labHours+"\t | "+professor+"\t | "+link)
@@ -242,7 +242,7 @@ def getAdvancedCourses():
                 children = divs[2].findChildren()
                 for child in children:
                         learningOutcomes = learningOutcomes + (child.text)
-                        
+
                 prerequisites = divs[3].text
 
                 basicTextbooks = ''
