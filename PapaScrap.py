@@ -249,7 +249,7 @@ def getAdvancedCourses():
                 children = divs[4].findChildren()
                 for child in children:
                         basicTextbooks = basicTextbooks + (child.text)
-                
+
                 additionalReferences = ''
                 children = divs[5].findChildren()
                 for child in children:
