@@ -32,7 +32,7 @@ class BasicCourse(object):
                 self.link = link
 
 class AdvancedCourse(object):
-        def __init__(self, contentOutline, learningOutcomes, prerequisites, basicTextbooks, additionalReferences, 
+        def __init__(self, contentOutline, learningOutcomes, prerequisites, basicTextbooks, additionalReferences,
 		     teachingMethod, grandingMethod, languageOfInstruction, modeOfDelivery):
                 self.contentOutline = contentOutline
                 self.learningOutcomes = learningOutcomes
@@ -45,7 +45,7 @@ class AdvancedCourse(object):
                 self.modeOfDelivery = modeOfDelivery
                 
 def getProfessors():
-        html_data = ''	
+        html_data = ''
 	resp = requests.get('http://www.icsd.aegean.gr/icsd/akadimaiko')
 	if resp.ok:
 		html_data = resp.text
@@ -206,9 +206,9 @@ def getAdvancedCourses():
 
                 soup = BeautifulSoup(html_data, 'html.parser')
 
-                table = soup.find( "table", {"class":"table m-table m-table--head-separator-primary table-bordered table-hover"} )
+                #table = soup.find( "table", {"class":"table m-table m-table--head-separator-primary table-bordered table-hover"} )
 
-                all_data = table.findAll("tr")
+                #all_data = table.findAll("tr")
                 
                 #title = all_data[0].findChildren()[2].text
                 
@@ -275,7 +275,7 @@ def getAdvancedCourses():
                 for child in children:
                         modeOfDelivery = modeOfDelivery + (child.text)
 
-                advanced_courses.append(AdvancedCourse(contentOutline, learningOutcomes, prerequisites, basicTextbooks, additionalReferences, 
+                advanced_courses.append(AdvancedCourse(contentOutline, learningOutcomes, prerequisites, basicTextbooks, additionalReferences,
 						       teachingMethod, grandingMethod, languageOfInstruction, modeOfDelivery))
 
                 #print('________________________________________________________________________\n')
