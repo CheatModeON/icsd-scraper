@@ -24,6 +24,6 @@ Returns all courses as an array of objects with the below details:
 
 ### getAdvancedCourses
 Returns all courses as an array of objects with the below details:
-* contentOutline, learningOutcomes, prerequisites,basicTextbooks, additionalReferences, teachingMethod, grandingMethod, languageOfInstruction, modeOfDelivery
+* contentOutline, learningOutcomes, prerequisites, basicTextbooks, additionalReferences, teachingMethod, grandingMethod, languageOfInstruction, modeOfDelivery
 
 **⚠️Ιmportant:** getAdvancedCourses doesn't always work properly due to lack of consistency of ICSD site. So it's better to use the getBasicCourses to retrieve basic course information.
