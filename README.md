@@ -54,5 +54,5 @@ Returns all courses as an array of objects with the below details:
 * grandingMethod
 * languageOfInstruction
 * modeOfDelivery
-\
-⚠️Ιmportant: getAdvancedCourses doesn't always work properly due to lack of consistency of ICSD site. So it's better to use the getBasicCourses to retrieve basic course information.
+
+**⚠️Ιmportant:** getAdvancedCourses doesn't always work properly due to lack of consistency of ICSD site. So it's better to use the getBasicCourses to retrieve basic course information.
