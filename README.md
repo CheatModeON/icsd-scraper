@@ -5,6 +5,7 @@ ICSD website Scrapper v.0000000001
 
 # About
 Scrapping professors and courses from http://www.icsd.aegean.gr/icsd/
+
 Original idea by Yannis Alexiou. 
 Check his implementation in NodeJS here: https://www.npmjs.com/package/icsd-scraper
 
@@ -13,7 +14,7 @@ Run script "python PapaScrap.py"
 It already includes examples of usages at the end of the code
 
 # Functions
---getProfessors()
+* getProfessors()
 Returns all professors as an array of objects with the below details:
 
 name
@@ -25,7 +26,7 @@ email
 website
 image
 
---getCourses()
+* getCourses()
 Returns all courses as an array of objects with the below details:
 
 title
@@ -37,7 +38,7 @@ labHours
 professor
 link
 
---getAdvancedCourses()
+* getAdvancedCourses()
 Returns all courses as an array of objects with the below details:
 
 title
