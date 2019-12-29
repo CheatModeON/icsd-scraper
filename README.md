@@ -18,7 +18,7 @@ Check his implementation in NodeJS [here](https://www.npmjs.com/package/icsd-scr
 ## Usage
 Install package:
 ````
-pip install icsd-scraper
+pip install icsdscraper
 ````
 Import main library:
 ````
