@@ -8,7 +8,8 @@
 #### ICSD website Scrapper v.0.0.1
 
 ## About
-Scrapping professors and courses from [ICSD website](http://www.icsd.aegean.gr/icsd/)
+Scrapping professors and courses from [ICSD website](http://www.icsd.aegean.gr/icsd/).
+
 This package is very useful for thesis work or other academic projects.
 
 Original idea by [Yannis Alexiou](https://github.com/yannisalexiou). 
