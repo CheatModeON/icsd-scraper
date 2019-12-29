@@ -16,9 +16,21 @@ Original idea by [Yannis Alexiou](https://github.com/yannisalexiou).
 Check his implementation in NodeJS [here](https://www.npmjs.com/package/icsd-scraper)
 
 ## Usage
-Run script "python PapaScrap.py"
-It already includes examples of usages at the end of the code
+Install package:
+````
+pip install icsd-scraper
+````
+Import main library:
+````
+import PapaScrap
+````
+Retrieve object like so:
+````
+professors = PapaScrap.getProfessors()
 
+for obj in professors:
+    print obj.name
+````
 ## Functions 
 ### getProfessors
 Returns all professors as an array of objects with the below details:
@@ -35,4 +47,4 @@ Returns all courses as an array of objects with the below details:
 
 **contentOutline, learningOutcomes, prerequisites, basicTextbooks, additionalReferences, teachingMethod, grandingMethod, languageOfInstruction, modeOfDelivery**
 
-**⚠️Ιmportant:** getAdvancedCourses doesn't always work properly due to lack of consistency of ICSD site. So it's better to use the getBasicCourses to retrieve basic course information.
+**⚠️Ιmportant:** `getAdvancedCourses` doesn't always work properly due to lack of consistency of ICSD site. So it's better to use the `getBasicCourses` to retrieve basic course information.
