@@ -1,7 +1,7 @@
 # ICSD website Scrapper
-[![PyPI version](https://badge.fury.io/py/icsd-scraper.svg)](https://badge.fury.io/py/icsd-scraper)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c1f9032ce0a94d5faf42007adf8dd087)](https://www.codacy.com/manual/CheatModeON/icsd-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CheatModeON/icsd-scraper&amp;utm_campaign=Badge_Grade)
-![PyPI - License](https://img.shields.io/pypi/l/icsd-scraper)
+[![PyPI version](https://badge.fury.io/py/icsdscraper.svg)](https://badge.fury.io/py/icsdscraper)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c1f9032ce0a94d5faf42007adf8dd087)](https://www.codacy.com/manual/CheatModeON/icsdscraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CheatModeON/icsd-scraper&amp;utm_campaign=Badge_Grade)
+![PyPI - License](https://img.shields.io/pypi/l/icsdscraper)
 
 Author: [Achilleas Papakonstantinou](https://www.linkedin.com/in/achipap/)
 
