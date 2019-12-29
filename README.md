@@ -5,9 +5,9 @@
 
 *Author: [Achilleas Papakonstantinou](https://www.linkedin.com/in/achipap/)*
 
-*Date: 26 Dec. 2019*
+*Last update: 29 Dec. 2019*
 
-*ICSD website Scrapper v.0.0.1*
+**ICSD website Scrapper v0.0.1**
 
 ## About
 Scrapping professors and courses from [ICSD website](http://www.icsd.aegean.gr/icsd/).
