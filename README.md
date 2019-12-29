@@ -3,9 +3,9 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c1f9032ce0a94d5faf42007adf8dd087)](https://www.codacy.com/manual/CheatModeON/icsd-scraper?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=CheatModeON/icsd-scraper&amp;utm_campaign=Badge_Grade)
 ![PyPI - License](https://img.shields.io/pypi/l/icsd-scraper)
 
-*Author: [Achilleas Papakonstantinou](https://www.linkedin.com/in/achipap/)*
+Author: [Achilleas Papakonstantinou](https://www.linkedin.com/in/achipap/)
 
-*Last update: 29 Dec. 2019*
+Last update: 29 Dec. 2019
 
 ## About
 Scrapping professors and courses from [ICSD website](http://www.icsd.aegean.gr/icsd/).
